@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(255, 255, 246);
+  font-size: 1rem;
+}
+
+
+header{
+  text-align: center;
+  background-color: rgb(243, 219, 174);
+}
+
+button{
+  padding: 8px;
+  outline: none;
+  border: 1px solid coral;
+  border-radius: 6px;
+  background-color: rgb(229, 245, 231);
+}
+
+button:hover{
+  background-color: thistle;
+}
+
+.container{
+  width: 95%;
+  margin: auto;
+}
+
+.create-card{
+  width: 380px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 246);
+  box-shadow: 0 2px 4px 0 rgb(235, 184, 122);
+}
+
+#question{
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+
+#answer{
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid lightgray;
+}
+
+#card-actions{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.flashcards{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 0 10px;
+}
+
+.flashcard{
+  width: 370px;
+  height: 200px;
+  word-wrap: break-word;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgb(160, 106, 40);
+}
+
+.flashcard h2{
+  font-size: 1rem;
+}
